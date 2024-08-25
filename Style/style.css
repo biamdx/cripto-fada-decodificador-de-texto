@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+:root{
+    --corfundo: #F3CCFF;
+    --corsecundaria: #A6FF96;
+    --corterciaria: #A555EC;
+    --cortexto: #114232;
+    --corsecundariatexto: #FFE3FE;
+
+}
+
+
+body{
+    background-color: var(--corfundo); 
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: "DM Serif Text", serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0% 0% 3%;
+    width: 5%;
+    float: left; /*deixar os itens na mesma linha do cabecalho*/
+}
+
+.cabecalho img{
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.apresentacao__conteudo{
+    color: var(--cortexto);
+}
+
+.container-input{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px; 
+}
+
+#input-texto{
+    width: 500px;
+    height: 330px;
+    font-size: 30px;
+    background: transparent;
+    color: var(--cortexto);
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 300px 0 0 150px ;
+    text-transform: lowercase;    
+}
+
+.mensagem__aviso{
+    
+   padding: 0 0 0 35%;
+   display: flex;
+   white-space: nowrap;
+   gap: 10px;
+}
+
+.mensagem__aviso img{
+    width: 18px;
+    height: 18px;
+}
+
+.area__descriptografar{
+    display: block-inline;
+    padding: 10px 130px 0px 0px;
+    
+}
+
+#output{
+    display: block-inline;
+    border-radius: 20px;
+    color: var(--cortexto);
+    background-color: var(--corsecundaria); 
+    width: 415px;
+    height: 840px;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 30px;
+    border-style: none;
+    width: 70%;
+    margin-left: 20%;
+    z-index: -1000;
+    resize: none;
+    align-items: center;
+}
+
+
+#output img{
+    max-width: 200px;
+    max-height: 320px;
+    width: 60%;
+    margin-left: 30px;
+    padding-top: 40%;
+    padding-left: 4.5%;   
+}
+
+#output h2{
+    text-align: center;
+    font-size: 24px;
+    color: var(--cortexto);
+}
+
+#output span{
+    text-align: center;
+    font-size: 20px;
+    font-family: "DM Serif Text", serif;
+}
+
+.container-btn button{
+    border-radius: 15px;
+    border: 2px solid var(--cortexto);
+    width: 300px;
+    height: 55px;
+    font-size: 16px;
+    margin-left: 2%;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative; /* posicao do botao*/
+    left: 17%;
+    top: -150px;   
+    background-color: var(--corsecundaria);
+    color: var(--cortexto);
+}
+
+.btn-copiar{
+    border-radius: 15px;
+    border: 2px solid var(--cortexto);
+    width: 300px;
+    height: 55px;
+    margin-left: 18%;
+    margin-right: 16%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    background-color: var(--corterciaria);
+    color: var(--corsecundariatexto);
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-copiar:hover{
+    background-color: #D09CFA;
+}
+
+.container-btn button:hover {
+    background-color: var(--corterciaria);
+    color: var(--corsecundariatexto);
+    transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: var(--corterciaria);
+    color: var(--corsecundariatexto);
+}
+
+.rodape h3{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    color: var(--corsecundariatexto); 
+    width: 20px;
+    height: 20px; 
+}
+
+.icons ion-icon:hover{
+    color: var(--corsecundaria);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

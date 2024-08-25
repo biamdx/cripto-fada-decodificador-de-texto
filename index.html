@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="http-equiv=X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cripto Fada</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="shortcut icon" href="Assets/Primeira.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main container">
+    <header class="cabecalho">
+    <img src="Assets/Primeira.png" alt="foto fada sentada">
+    </header>
+    
+    <div class="container-input">
+        <div class="input"> 
+            <textarea id="input-texto" placeholder="Digite seu texto"></textarea> 
+            <div class="mensagem__aviso">
+            <img src="Assets/ATENCAO.png" >
+            <p> Apenas letras minusculas e sem acento</p>
+            </div>
+        </div>
+         
+       <div class="area__descriptografar" >
+        <div id="output">
+            <img src="Assets/Segunda.png" alt="foto fada em pe">
+            <h2> Nenhuma mensagem encontrada</h2>
+            <span> Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="botoes">
+            <div class="container-btn"> 
+                <button onclick="criptografar()" class="btn-criptografar"> Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar"> Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/bianca-mendes3008/ "><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/biamdx"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3> Desenvolvido por Bianca. </h3>
+    </footer>
+
+    <script src="Interacao/script.js"></script>
+    <script src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"> </script>
+
+</body>
+</html>
