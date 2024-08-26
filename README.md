@@ -12,17 +12,18 @@ Desenvolvido com:
 * Recebe uma mensagem e ao clicar no botão "criptografar", deixa essa mensagem codificada. 
 * Recebe a mensagem codificada e ao clicar no botão "descriptografar" decodifica a mensagem.
 
+
 ## **Pagina inicial:**
-![1](https://github.com/user-attachments/assets/eba1952a-f1b5-4224-892d-2dcb78911e98)
+![1](https://github.com/user-attachments/assets/907a02ad-86cb-4011-a8ae-d1c8521090c1)
 
 ## **Inserindo a mensagem:**
-![3](https://github.com/user-attachments/assets/3f1bdc18-47a2-4990-8a3a-e475b7e4a55a)
+![2](https://github.com/user-attachments/assets/81a5b8dd-c097-46a8-b54f-d73883777d63)
 
 ## **Mensagem Criptografada:**
-![4](https://github.com/user-attachments/assets/183bdbb0-5963-4ec1-9b71-b015665d0cc4)
+![3](https://github.com/user-attachments/assets/91d24a49-5efd-4963-902f-2364f60b7631)
 
 ## **Mensagem Descriptografada:**
-![5](https://github.com/user-attachments/assets/ee250f0f-1a32-47ac-95df-9eb5ba8f50ed)
+![5](https://github.com/user-attachments/assets/111e6c69-d5a7-4c9f-b0fe-4c1ef0fdef1d)
 
 
 
